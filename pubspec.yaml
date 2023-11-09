@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  agent_dart: ^1.0.0-dev.8
+  agent_dart:
+    git:
+      url: https://github.com/AstroxNetwork/agent_dart
+      ref: c053ad080c87fd5b036e0844d619bec023bd0abc
   plugin_platform_interface: ^2.0.2
   tuple: ^2.0.0
 
